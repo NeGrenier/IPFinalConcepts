@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2019 by your firstname lastname</title>
+
+  <!-- This is a comment line which won't be rendered by any HTML browser -->
+
+
+  <style>
+    .title {
+      background-color: #3aa;
+      color: yellow;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: center;
+      outline: none;
+      font-size: 32px;
+    }
+
+    .sectionheading {
+      background-color: #a77;
+      color: black;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 18px;
+    }
+
+    .collapsible {
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .active,
+    .collapsible:hover {
+      background-color: #555;
+    }
+
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #f1f1f1;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+  <div class="title"> 25 Terms by Nevin Grenier </div>
+  </div>
+
+
+  <div class="sectionheading"> 1. Explain javascript array methods: push, pop, shift and unshift. Show how to use
+    javascript array as queue and stack respectively. </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+
+    <ul style="list-style-type: disc;">
+      <li><strong>Pop</strong>
+        <ol style="list-style-type: circle;">
+          <li>Syntax: array.pop()</li>
+          <li>Removes (pops) the last element of an array.</li>
+          <li>Changes the original array &amp; returns the removed element.</li>
+        </ol>
+      </li>
+    </ul>
+    <ul style="list-style-type: disc;">
+      <li><strong>Push</strong>
+        <ol style="list-style-type: circle;">
+          <li>Syntax: array.push<em>(item1, item2, ..., itemX</em>)<ul style="list-style-type: square;">
+              <li><em>item1, item2, ..., itemX &ndash;&nbsp;</em>items to add to array (min: 1 item)</li>
+            </ul>
+          </li>
+          <li>The push() method adds new items to the end of an array.</li>
+          <li>Changes the length of the array and returns the new length of the array</li>
+        </ol>
+      </li>
+      <li><strong>Shift</strong>
+        <ol style="list-style-type: circle;">
+          <li>Syntax: array.shift()</li>
+          <li>Removes the first item of an array.</li>
+          <li>Changes the original array.</li>
+          <li>Returns the shifted/removed element.</li>
+        </ol>
+      </li>
+      <li><strong>Unshift</strong>
+        <ol style="list-style-type: circle;">
+          <li>Syntax: array.unshift()</li>
+          <li>Adds new elements to the beginning of an array.</li>
+          <li>Overwrites the original array.</li>
+          <li>Returns the new length of the array</li>
+        </ol>
+      </li>
+    </ul>
+
+    </p>
+
+
+
+  </div>
+
+
+  <div class="sectionheading"> 2. In CSS, selectors are patterns used to select the element(s) you want to style. What
+    is a compound selector? What is attribute selector? Provide 8 other selectors that you could use in web application.
+  </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>What is a compound selector?</strong>
+        <ol style="list-style-type: circle;">
+          <li>Selects two or more simple selectors to target specific elements</li>
+        </ol>
+      </li>
+      <li><strong>What is attribute selector?</strong>
+        <ol style="list-style-type: circle;">
+          <li>Use a selector to select a specific target based its attribute</li>
+        </ol>
+      </li>
+      <li><strong>8 selectors</strong>
+        <ol style="list-style-type: circle;">
+          <li>:valid</li>
+          <li>:required</li>
+          <li>.class1.class2</li>
+          <li>[attribute]</li>
+          <li>:active</li>
+          <li>:checked</li>
+          <li>:disable</li>
+          <li>&ldquo;empty</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 3. Briefly compare json, xml, yaml (“ YAML Ain’t Markup Language”), and markdown. </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>json</strong>
+        <ol style="list-style-type: circle;">
+          <li>lightweight format for storing and transporting data</li>
+          <li>used when data is sent from a server to a web page</li>
+          <li>JSON is &quot;self-describing&quot; and easy to understand</li>
+          <li>Syntax Rules:<ul style="list-style-type: square;">
+              <li>Data is in name/value pairs</li>
+              <li>Data is separated by commas</li>
+              <li>Curly braces hold objects</li>
+              <li>Square brackets hold arrays</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li><strong>Xml (eXtensible Markup Language)</strong>
+        <ol style="list-style-type: circle;">
+          <li>designed to store and transport data</li>
+          <li>XML was designed to be self-descriptive</li>
+          <li>uses tags to define data elements and attributes to provide additional information about them. It is a
+            powerful format that can be used to represent complex data structures, and it is widely used in web services
+            and other data exchange applications</li>
+        </ol>
+      </li>
+      <li><strong>yaml (&ldquo; YAML &nbsp; &nbsp;Ain&rsquo;t &nbsp; Markup &nbsp; Language&rdquo;)</strong>
+        <ol style="list-style-type: circle;">
+          <li>Human-readable data serialization format that is designed to be easy to read and write. It is often used
+            in configuration files, and it supports more complex data structures</li>
+        </ol>
+      </li>
+      <li><strong>Markdown</strong>
+        <ol style="list-style-type: circle;">
+          <li>Lightweight markup language that is designed to be easy to read and write. It is used to format text for
+            the web, and it can be easily converted to HTML. Markdown is often used in documentation and online forums.
+            It supports basic formatting such as headings, lists, links, and images.</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 4. The difference between a framework and a library lies in a concept called "inversion
+    of control". When you use a library, you are in charge of the flow of the application. You are choosing when and
+    where to call the library. When you use a framework, the framework is in charge of the flow. It provides some places
+    for you to plug in your code, but it calls the code you plugged in as needed. Name two js libraries and two js
+    framework respectively. </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Js libraries</strong>
+        <ol style="list-style-type: circle;">
+          <li>Brain.js</li>
+          <li>Three.js</li>
+        </ol>
+      </li>
+      <li><strong>Js frameworks</strong>
+        <ol style="list-style-type: circle;">
+          <li>Angular</li>
+          <li>Mocha</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 5. What are AJAX and XMLHttpRequest (XHR) objects respectively? Identify 3 properties and
+    3 methods https://www.w3schools.com/js/js_ajax_http.asp </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>AJAX (Asynchronous JavaScript And XML)</strong>
+        <ol style="list-style-type: circle;">
+          <li><strong>Properties</strong>
+            <ul style="list-style-type: square;">
+              <li>Technique to asynchronously communicate with a server and update a webpage once the response is
+                received, without reloading the whole webpageJAX just uses a combination of:<ul
+                  style="list-style-type: disc;">
+                  <li>A browser built-in XMLHttpRequest object (to request data from a web server)</li>
+                  <li>JavaScript and HTML DOM (to display or use the data)</li>
+                </ul>
+              </li>
+              <li>web pages to be updated asynchronously by exchanging data with a web server behind the scenes.</li>
+            </ul>
+          </li>
+          <li><strong>Methods</strong>
+            <ul style="list-style-type: square;">
+              <li>Fetch API</li>
+              <li>jQuery.ajax()</li>
+              <li>XMLHttpRequest</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li><strong>XMLHttpRequest objects</strong>
+        <ol style="list-style-type: circle;">
+          <li><strong>Properties</strong>
+            <ul style="list-style-type: square;">
+              <li><strong>onload&nbsp;&nbsp;</strong>
+                <ul style="list-style-type: disc;">
+                  <li>Defines a function to be called when the request is received (loaded)</li>
+                </ul>
+              </li>
+              <li><strong>Onreadystatechange</strong>
+                <ul style="list-style-type: disc;">
+                  <li>Defines a function to be called when the readyState property changes</li>
+                </ul>
+              </li>
+              <li><strong>readyState&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>
+                <ul style="list-style-type: disc;">
+                  <li>Holds the status of the XMLHttpRequest.</li>
+                  <li>0: request not initialized</li>
+                  <li>1: server connection established</li>
+                  <li>2: request received</li>
+                  <li>3: processing request</li>
+                  <li>4: request finished and response is ready</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Methods</strong>
+            <ul style="list-style-type: square;">
+              <li><strong>new XMLHttpRequest()&nbsp;</strong>
+                <ul style="list-style-type: disc;">
+                  <li>Creates a new XMLHttpRequest object</li>
+                </ul>
+              </li>
+              <li><strong>open(<em>method, url, async, user, psw</em>)&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>
+                <ul style="list-style-type: disc;">
+                  <li>Specifies the request using:</li>
+                  <li><em>method:</em> the request type GET or POST</li>
+                  <li><em>url:</em> the file location</li>
+                  <li><em>async</em>: true (asynchronous) or false (synchronous)</li>
+                  <li><em>user:</em> optional user name</li>
+                  <li><em>psw:</em> optional password</li>
+                </ul>
+              </li>
+              <li><strong>getAllResponseHeaders()</strong>
+                <ul style="list-style-type: disc;">
+                  <li>Returns header information</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 6. Explain npm, npx, nvm, package.json and package-lock.json files </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Npm (Node package manager <a
+            href="https://docs.npmjs.com/about-npm">https://docs.npmjs.com/about-npm</a>)</strong>
+        <ol style="list-style-type: circle;">
+          <li>Shares and borrow packages, and many organizations use npm to manage private development as well</li>
+          <li>Consists of three distinct components:<ul style="list-style-type: square;">
+              <li>The website<ul style="list-style-type: disc;">
+                  <li>To discover packages, set up profiles, and manage other aspects of your npm experience</li>
+                </ul>
+              </li>
+              <li>The Command Line Interface (CLI)<ul style="list-style-type: disc;">
+                  <li>runs from a terminal, and is how most developers interact with npm.</li>
+                </ul>
+              </li>
+              <li>The registry<ul style="list-style-type: disc;">
+                  <li>a large public database of JavaScript software and the meta-information surrounding it</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Use to:</strong>
+            <ul style="list-style-type: square;">
+              <li>Adapt packages of code for your apps, or incorporate packages as they are.</li>
+              <li>Download standalone tools you can use right away.</li>
+              <li>Run packages without downloading using npx.</li>
+              <li>Share code with any npm user, anywhere.</li>
+              <li>Restrict code to specific developers.</li>
+              <li>Create organizations to coordinate package maintenance, coding, and developers.</li>
+              <li>Form virtual teams by using organizations.</li>
+              <li>Manage multiple versions of code and code dependencies.</li>
+              <li>Update applications easily when underlying code is updated.</li>
+              <li>Discover multiple ways to solve the same puzzle.</li>
+              <li>Find other developers who are working on similar problems and projects.</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+    <ul style="list-style-type: disc;">
+      <li><strong>Npx (Node Package Execute <a
+            href="https://www.npmjs.com/package/npx">https://www.npmjs.com/package/npx</a>)</strong>
+        <ol style="list-style-type: circle;">
+          <li>Synopsis:<ul style="list-style-type: square;">
+              <li><code
+                  style='font-family:"Courier New";'><span style="font-family:Consolas;color:#333333;background:#F7F7F7;font-size:13px;">npx [options] &lt;command&gt;[@version] [command-arg]...</span></code>
+              </li>
+              <li><code
+                  style='font-family:"Courier New";'><span style="font-family:Consolas;color:#333333;background:#F7F7F7;font-size:13px;">npx [options] [-p|--package &lt;pkg&gt;]... &lt;command&gt; [command-arg]...</span></code>
+              </li>
+              <li><code
+                  style='font-family:"Courier New";'><span style="font-family:Consolas;color:#333333;background:#F7F7F7;font-size:13px;">npx [options] -c &apos;&lt;command-string&gt;&apos;</span></code>
+              </li>
+              <li><code
+                  style='font-family:"Courier New";'><span style="font-family:Consolas;color:#333333;background:#F7F7F7;font-size:13px;">npx --shell-auto-fallback [shell]</span></code>
+              </li>
+            </ul>
+          </li>
+          <li>Execute npm package binaries (it&rsquo;s a npm package runner)</li>
+          <li>Executes &lt;command&gt; either from a local node_modules/.bin, or from a central cache, installing any
+            packages needed in order for &lt;command&gt; to run.</li>
+          <li>By default, npx will check whether &lt;command&gt; exists in $PATH, or in the local project binaries, and
+            execute that. If &lt;command&gt; is not found, it will be installed prior to execution.</li>
+        </ol>
+      </li>
+      <li><strong>Nvm</strong>
+        <ol style="list-style-type: circle;">
+          <li>version manager for node.js, designed to be installed per-user, and invoked per-shell</li>
+          <li>allows developers to easily switch between different versions of Node.js on their system since some
+            projects wont work on all versions</li>
+        </ol>
+      </li>
+      <li><strong>package.json&nbsp;</strong>
+        <ol style="list-style-type: circle;">
+          <li>Every npm package and Node.js project has a package.json file with metadata for a project. The file
+            resides in the root directory of every Node.js package</li>
+          <li>Its a configuration file for NPM that descriptive and functional metadata about a project, including its
+            name, version, dependencies, and other information</li>
+        </ol>
+      </li>
+      <li><strong>package-lock.json</strong>
+        <ol style="list-style-type: circle;">
+          <li>automatically generated for any operations where npm modifies either the node_modules tree, or
+            package.json. It describes the exact tree that was generated, such that subsequent installs are able to
+            generate identical trees, regardless of intermediate dependency updates.</li>
+          <li>This file is intended to be committed into source repositories</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 7. Differences among CSS, LESS, SASS (Syntactically Awesome Stylesheet)
+    https://www.tutorialspoint.com/sass/index.htm
+  </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>CSS</strong>
+        <ol style="list-style-type: circle;">
+          <li>Uses its simple syntax with basic variables to describe how the to style the HTML document</li>
+        </ol>
+      </li>
+      <li><strong>LESS (Leaner CSS)</strong>
+        <ol style="list-style-type: circle;">
+          <li>CSS pre-processor, dynamic language and enables customization, maintain and manage style-sheets</li>
+          <li>Gives users a chance to activate mixins when certain situations occur.</li>
+          <li>Uses JavaScript</li>
+        </ol>
+      </li>
+      <li><strong>SASS (Syntactically Awesome Stylesheet)</strong>
+        <ol style="list-style-type: circle;">
+          <li>a CSS pre-processor, which helps to reduce repetition with CSS and saves time. It is more stable and
+            powerful CSS extension language that describes the style of document structurally. This tutorial covers the
+            basics of SASS.</li>
+          <li>Based on Ruby</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 8. backbone, ember, underscore, bootstrap </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Backbone</strong>
+        <ol style="list-style-type: circle;">
+          <li>A lightweight JavaScript library that allows to develop and structure the client side applications that
+            run in a web browser. It offers MVC framework which abstracts data into models, DOM into views and bind
+            these two using events.</li>
+        </ol>
+      </li>
+      <li><strong>Ember</strong>
+        <ol style="list-style-type: circle;">
+          <li>an open source, free JavaScript client-side framework used for developing web applications. It allows
+            building client side JavaScript applications by providing a complete solution which contains data management
+            and an application flow.</li>
+        </ol>
+      </li>
+      <li><strong>Underscore</strong>
+        <ol style="list-style-type: circle;">
+          <li>JavaScript library that provides useful functional programming helpers without extending any built-in
+            objects.</li>
+          <li>Over 100 functions that support both functional helpers: map, filter, invoke &mdash; as well as more
+            specialized: function binding, JavaScript templating, creating quick indexes, deep equality testing.</li>
+        </ol>
+      </li>
+      <li><strong>Bootstrap</strong>
+        <ol style="list-style-type: circle;">
+          <li>Free and open-source CSS framework directed at responsive, mobile-first front-end web development.</li>
+          <li>It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation,
+            and other interface components.</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 9. Compute Engine delivers configurable virtual machines running in Google's data centers
+    with access to high-performance networking infrastructure and block storage solutions. App Engine is a fully
+    managed, serverless platform for developing and hosting web applications at scale. Name three major differences
+    (accessible to your overall background) between them.
+    https://www.geeksforgeeks.org/difference-between-google-cloud-compute-engine-and-app-engine/ </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Compute Engine VS App Engine</strong></li>
+    </ul>
+    <ol style="list-style-type: decimal;margin-left:0.25in;">
+      <li><strong>Type of service:</strong>
+        <ol style="list-style-type: lower-alpha;">
+          <li>Compute Engine<ol style="list-style-type: lower-roman;">
+              <li>Infrastructure as a Service (IaaS) offering by Google Cloud</li>
+            </ol>
+          </li>
+          <li>App Engine<ol style="list-style-type: lower-roman;">
+              <li>Is Google&rsquo;s Platform as a Service (PaaS) offering</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li><strong>Service Model:</strong>
+        <ol style="list-style-type: lower-alpha;">
+          <li>Compute Engine<ol style="list-style-type: lower-roman;">
+              <li>Unmanaged</li>
+            </ol>
+          </li>
+          <li>App Engine<ol style="list-style-type: lower-roman;">
+              <li>Managed service</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li><strong>Control:</strong>
+        <ol style="list-style-type: lower-alpha;">
+          <li>Compute Engine<ol style="list-style-type: lower-roman;">
+              <li>it is our responsibility to configure, administer, and monitor the system.</li>
+            </ol>
+          </li>
+          <li>App Engine<ol style="list-style-type: lower-roman;">
+              <li>That is a managed service so it has less control over the computer resources with less to manage.</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 10.Tailwind CSS is a utility-first CSS framework for rapidly building modern websites
+    without ever leaving your HTML. What Tailwind does is it offers more control over styling to the developers . This
+    not only improves development speed but also improves productivity. Name three alternatives (most popular CSS
+    frameworks) to Tail wind, and briefly compare Tailwind with them. </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>3 Other CSS frameworks:</strong>
+        <ol style="list-style-type: circle;">
+          <li>Bootstrap</li>
+          <li>Bulma</li>
+          <li>Foundation</li>
+        </ol>
+      </li>
+      <li><strong>Differences:</strong>
+        <ol style="list-style-type: circle;">
+          <li>The other CSS frameworks are more traditional frameworks that provide pre-built UI components and styles
+          </li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 11. Define the following concepts: nosql, Mongodb, &nbsp;collection, document, rdbms,
+    mysql, sql, MongoDB Query Language (MQL) </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Nosql (&ldquo;not only SQL&rdquo;, &ldquo;non-SQL&rdquo;)</strong>
+        <ol style="list-style-type: circle;">
+          <li>that enables the storage and querying of data outside the traditional structures found in relational
+            databases.</li>
+        </ol>
+      </li>
+      <li><strong>Mongodb</strong>
+        <ol style="list-style-type: circle;">
+          <li>database management program. NoSQL is used as an alternative to traditional relational database</li>
+          <li>high-volume data storage, helping organizations store large amounts of data while still performing
+            rapidly. Organizations also use MongoDB for its ad-hoc queries, indexing, load balancing, aggregation,
+            server-side JavaScript execution</li>
+        </ol>
+      </li>
+      <li><strong>Collection</strong>
+        <ol style="list-style-type: circle;">
+          <li>collection is a group of documents</li>
+          <li>In mongodb, just like tables in relational databases, they also store data, but in the form of documents.
+            A single database is allowed to store multiple collections. &nbsp;</li>
+        </ol>
+      </li>
+      <li><strong>Document</strong>
+        <ol style="list-style-type: circle;">
+          <li>In mongodb the data records are stored as BSON documents. Here, BSON stands for binary representation of
+            JSON documents,</li>
+          <li>The document is created using field-value pairs or key-value pairs and the value of the field can be of
+            any BSON type.</li>
+        </ol>
+      </li>
+      <li><strong>Rdbms (relational database management system)</strong>
+        <ol style="list-style-type: circle;">
+          <li>a type of database management system (DBMS) that stores data in a row-based table structure which connects
+            related data elements</li>
+        </ol>
+      </li>
+      <li><strong>mysql</strong>
+        <ol style="list-style-type: circle;">
+          <li>relational database management system</li>
+          <li>relational database organizes data into one or more data tables in which data may be related to each other
+            (these relations help structure the data). SQL is a language programmers use to create, modify and extract
+            data from the relational database, as well as control user access to the database.</li>
+        </ol>
+      </li>
+      <li><strong>sql</strong>
+        <ol style="list-style-type: circle;">
+          <li>a programming language used to manage data stored in relational databases, which store structured data in
+            tables.</li>
+        </ol>
+      </li>
+      <li><strong>MongoDB Query Language (MQL)</strong>
+        <ol style="list-style-type: circle;">
+          <li>The document database designed to make it easy for developers to work with data in any form, and from any
+            programming language.</li>
+          <li>MongoDB can be queried using MongoDB Query Language ( MQL ). It&apos;s the interface by which clients can
+            interact with the MongoDB server.</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 12. What are data-attributes? </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="margin-bottom:0in;list-style-type: disc;">
+      <li
+        style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>
+        Data attributes allows us to store extra information on standard, semantic HTML elements without other hacks
+        such as non-standard attributes, or extra properties on DOM</li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 13. A template engine enables you to use static template files in your application. At
+    runtime, the template engine replaces variables in a template file with actual values, and transforms the template
+    into an HTML file sent to the client. This approach makes it easier to design an HTML page. Briefly describe 4
+    popular template engines or libraries. </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Marko&nbsp;</strong>
+        <ol style="list-style-type: circle;">
+          <li>A fast and lightweight HTML-based templating engine that compiles templates to CommonJS modules and
+            supports streaming, async rendering and custom tags. (Renders directly to the HTTP response stream).</li>
+        </ol>
+      </li>
+      <li><strong>Blade:</strong>
+        <ol style="list-style-type: circle;">
+          <li>HTML Template Compiler, inspired by Jade &amp; Haml.</li>
+        </ol>
+      </li>
+      <li><strong>Haml-Coffee</strong>
+        <ol style="list-style-type: circle;">
+          <li>Haml templates where you can write inline CoffeeScript.</li>
+        </ol>
+      </li>
+      <li><strong>Express-hbs</strong>
+        <ol style="list-style-type: circle;">
+          <li>Handlebars with layouts, partials and blocks for express 3 from Barc.</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 14. Asynchronous await vs. synchronous, blocking calls vs. noblocking calls </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Asynchronous await vs. synchronous</strong>
+        <ol style="list-style-type: circle;">
+          <li><strong>Asynchronous await is a feature that allows developers to write asynchronous code in a more
+              synchronous style&nbsp;</strong></li>
+          <li><strong>Synchronous call would make your entire application or thread wait until the code finished
+              executing to continue on with anything else</strong></li>
+        </ol>
+      </li>
+    </ul>
+    <ul style="list-style-type: disc;">
+      <li><strong>blocking calls vs. noblocking calls</strong>
+        <ol style="list-style-type: circle;">
+          <li>Blocking call program waits for a particular task to complete before continuing with the next one. Means
+            that if a task takes a long time to complete, the program will be &quot;blocked&quot; or &quot;stuck&quot;
+            until the task finishes</li>
+          <li>A non-blocking call, a program initiates a task and continues executing without waiting for the task to
+            complete. Means program can perform other tasks while waiting for the first task to complete.</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 15. arrow functions in 3 different cases </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>3 Cases:</strong>
+        <ol style="list-style-type: circle;">
+          <li>It&rsquo;s used in callback functions, on keypress functions and Single binding functions in js.</li>
+          <li>1.</li>
+          <li>function square(x) {</li>
+          <li>&nbsp; return x * x;</li>
+          <li>}</li>
+          <li>const square = (x) =&gt; x * x;</li>
+          <li>&nbsp;</li>
+          <li>2.</li>
+          <li>function bob(a) {</li>
+          <li>&nbsp; return a + 100;</li>
+          <li>}</li>
+          <li>&nbsp;</li>
+          <li>const bob2 = (a) =&gt; a + 100;</li>
+          <li>&nbsp;</li>
+          <li>3.Used in the kaboom library to call the move function on keypress</li>
+          <li>onKeyPress(&quot;space&quot;, () =&gt; jump())</li>
+          <li><strong>&nbsp;</strong></li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 16. What is restful services? What is restful API endpoints? What is routing? restful,
+    restful api, restful service, client, clean url, resource and endpoint </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>What is restful services?&nbsp;</strong>
+        <ol style="list-style-type: circle;">
+          <li>REST Architecture based Web Services. In REST Architecture everything is a resource. RESTful web services
+            are light weight, highly scalable and maintainable and are very commonly used to create APIs for web-based
+            applications.</li>
+        </ol>
+      </li>
+      <li><strong>What is restful API endpoints?</strong>
+        <ol style="list-style-type: circle;">
+          <li>A specific resource or a collection of resources, and they can be accessed using HTTP methods</li>
+        </ol>
+      </li>
+      <li><strong>&nbsp;What is routing?</strong>
+        <ol style="list-style-type: circle;">
+          <li>Directing incoming HTTP requests to the appropriate handler function</li>
+        </ol>
+      </li>
+      <li><strong>Restful</strong>
+        <ol style="list-style-type: circle;">
+          <li>RESTful web services are stateless, meaning that the server does not store any session data about the
+            client.</li>
+        </ol>
+      </li>
+      <li><strong>Restful api</strong>
+        <ol style="list-style-type: circle;">
+          <li>Application programming interface that follows the principles of REST Architecture</li>
+          <li>set of guidelines for building web services that are scalable, reliable, and maintainable</li>
+        </ol>
+      </li>
+      <li><strong>Client</strong>
+        <ol style="list-style-type: circle;">
+          <li>API architecture of client and server, sending the request is called the client</li>
+        </ol>
+      </li>
+      <li><strong>Clean url</strong>
+        <ol style="list-style-type: circle;">
+          <li>web addresses or Uniform Resource Locator (URLs) intended to improve the usability and accessibility of a
+            website, web application, or web service by being immediately and intuitively meaningful to non-expert users
+          </li>
+        </ol>
+      </li>
+      <li><strong>Resource &amp; Endpoints</strong>
+        <ol style="list-style-type: circle;">
+          <li>Architecturally, resources are data sets that an API allows you to work with, and which are accessible via
+            endpoints. They have relationships with other resources as well as a set of (allowed) operations that you
+            can carry out on them. Endpoints are URIs that embody the location of the resource that you want to do a
+            CRUDL operation on</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 17. Fetch, ajax vs. promise, callback function, ascychronous function </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Fetch</strong>
+        <ol style="list-style-type: circle;">
+          <li>Provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and
+            responses. It also provides a global fetch() method that provides an easy, logical way to fetch resources
+            asynchronously across the network</li>
+        </ol>
+      </li>
+      <li><strong>ajax vs. promise</strong>
+        <ol style="list-style-type: circle;">
+          <li>Asynchronous JavaScript And XML): allows web pages to be updated asynchronously by exchanging data with a
+            web server behind the scenes. This means that it is possible to update parts of a web page, without
+            reloading the whole page</li>
+          <li>A JavaScript Promise object can be: Pending, Fulfilled, Rejected. The Promise object supports two
+            properties: state and result</li>
+        </ol>
+      </li>
+      <li><strong>callback function</strong>
+        <ol style="list-style-type: circle;">
+          <li>A function passed as an argument to another function, which is then invoked inside the outer function to
+            complete some kind of routine or action</li>
+        </ol>
+      </li>
+      <li><strong>asynchronous function</strong>
+        <ol style="list-style-type: circle;">
+          <li>any function that delivers its result asynchronously</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 18. Express, Express routing, express middleware </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Express js</strong>
+        <ol style="list-style-type: circle;">
+          <li>ExpressJS is a web application framework that provides you with a simple API to build websites, web apps
+            and back ends</li>
+        </ol>
+      </li>
+      <li><strong>Express routing&nbsp;</strong>
+        <ol style="list-style-type: circle;">
+          <li>To route in express: app.method(path, handler)</li>
+          <li><span style="font-family:Calibri;">R<span style="color:black;background:white;">outers are very helpful in
+                separating concerns and keep relevant portions of our code together. They help in building maintainable
+                code.</span></span></li>
+        </ol>
+      </li>
+    </ul>
+    <ul style="list-style-type: disc;">
+      <li><strong>Express middleware</strong>
+        <ol style="list-style-type: circle;">
+          <li>Middleware functions are functions that have access to the request object (req), the response object
+            (res), and the next middleware function in the application&rsquo;s request-response cycle. These functions
+            are used to modify req and res objects for tasks</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 19. The minified and unminified CSS and JS files, CDN, play CDN, name two most popular
+    CDN providers </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>2 More CDN providers</strong>
+        <ol style="list-style-type: circle;">
+          <li><strong>Microsoft Azure CDN</strong> &ndash; Diverse spread of locations, better than average performance
+            &amp; free trial</li>
+          <li><strong>KeyCDN -</strong> Delivers fast speeds&amp; very configurable</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 20. The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE.
+    Define each of them. Name two other methods (HTTP verbs). </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>2 More HTTP Methods</strong>
+        <ol style="list-style-type: circle;">
+          <li><strong>CONNECT</strong>
+            <ul style="list-style-type: square;">
+              <li>The CONNECT method establishes a tunnel to the server identified by the target resource.</li>
+            </ul>
+          </li>
+          <li><strong>TRACE</strong>
+            <ul style="list-style-type: square;">
+              <li>The TRACE method performs a message loop-back test along the path to the target resource</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 21. vanilla JS, jquery vs. jqueryUI </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>vanilla JS</strong>
+        <ol style="list-style-type: circle;">
+          <li>a fast, lightweight, cross-platform framework for building incredible, powerful JavaScript applications.
+          </li>
+          <li>It is very basic and straightforward to learn as well as to use.</li>
+        </ol>
+      </li>
+      <li><strong>jquery vs. jqueryUI</strong>
+        <ol style="list-style-type: circle;">
+          <li>jQuery UI is a collection of pre-built user interface widgets, effects, and themes built on top of jQuery.
+          </li>
+          <li>jQuery is a JavaScript library for HTML document traversal and manipulation, event handling, animation,
+            and AJAX interactions</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 22. Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources
+    on a web page to be requested from another domain outside the domain from which the first resource was served. A web
+    page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos. What is same-origin policy
+  </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>What is same-origin policy?</strong>
+        <ol style="list-style-type: circle;">
+          <li>Critical security mechanism that restricts how a document or script loaded by one origin can interact with
+            a resource from another origin. It helps isolate potentially malicious documents, reducing possible attack
+            vectors</li>
+        </ol>
+      </li>
+    </ul>
+
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 23. Each component in React has a lifecycle which you can monitor and manipulate during
+    its three main phases. The three phases are: Mounting, Updating, and Unmounting. Explain each of these three phases
+    are about. </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>Mounting</strong>
+        <ol style="list-style-type: circle;">
+          <li>These methods are called in the following order when an instance of a component is being created and
+            inserted into the DOM:<ul style="list-style-type: square;">
+              <li>constructor()</li>
+              <li>static getDerivedStateFromProps()</li>
+              <li>render()</li>
+              <li>componentDidMount()</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li><strong>Updating</strong>
+        <ol style="list-style-type: circle;">
+          <li>An update can be caused by changes to props or state. These methods are called in the following order when
+            a component is being re-rendered:<ul style="list-style-type: square;">
+              <li>static getDerivedStateFromProps()</li>
+              <li>shouldComponentUpdate()</li>
+              <li>render()</li>
+              <li>getSnapshotBeforeUpdate()</li>
+              <li>componentDidUpdate()</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li><strong>Unmounting</strong>
+        <ol style="list-style-type: circle;">
+          <li><strong>This method is called when a component is being removed from the DOM:</strong>
+            <ul style="list-style-type: square;">
+              <li><strong>componentWillUnmount()</strong></li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <div class="sectionheading"> 24. In Meteor the client calls functions on the server using Methods, similar to RPC
+    (Remote Procedure Calls). Meteor Methods are a way to secure your applications by having the server validate the
+    data sent. Methods on the server defines functions that can be called remotely from clients. The method functions
+    should return an EJSON-able value or throw an exception. What is EJSON? </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul style="list-style-type: disc;">
+      <li><strong>What is EJSON?</strong>
+        <ol style="list-style-type: circle;">
+          <li>an extension of JSON syntax that supports Date and Binary types.</li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+  <div class="sectionheading"> 25. OAuth, short for "Open Authorization", is an open standard for access delegation,
+    commonly used as a way for internet users to grant websites or applications access to their information on other
+    websites but without giving them the passwords. This mechanism is used by companies to permit the users to share
+    information about their accounts with third-party applications or websites. What is the major difference between
+    OAuth1 and Oauth2? </div>
+
+  <button class="collapsible"> </button>
+  <div class="content">
+    <p>
+    <ul class="decimal_type" style="list-style-type: disc;">
+      <li><strong>What is the major difference between OAuth1 and Oauth2?</strong>
+        <ol class="decimal_type" style="list-style-type: circle;">
+          <li>OAuth 2.0 is a complete rewrite of OAuth 1.0<ul class="decimal_type" style="list-style-type: square;">
+              <li>OAuth 1.0 was largely based on two existing proprietary protocols: Flickr&rsquo;s authorization API
+                and Google&rsquo;s AuthSub.</li>
+              <li>Where OAuth 2.0 defines four roles, (client, authorization server, resource server, and resource
+                owner,) OAuth 1 uses a different set of terms for these roles.</li>
+              <li>The OAuth 2.0 &ldquo;client&rdquo; is known as the &ldquo;consumer,&rdquo; the &ldquo;resource
+                owner&rdquo; is known simply as the &ldquo;user,&rdquo; and the &ldquo;resource server&rdquo; is known
+                as the &ldquo;service provider&rdquo;. OAuth 1 also does not explicitly separate the roles of resource
+                server and authorization server.</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+    </p>
+  </div>
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+
+</body>
+
+</html>
